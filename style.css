@@ -1,0 +1,323 @@
+.estonia-regular {
+    font-family: "Estonia", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Estonia", serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+  
+  
+}
+.collapse {
+    color: aliceblue;
+}
+row {
+    font-family: "Estonia", serif;
+}
+ img {
+    max-width: 100%;
+ }
+ .cap {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+ }
+ .welcome {
+    display: flex;
+    font-family: Estonia; 
+    font-size: 50px;
+    justify-content: center;
+    }
+
+
+#draculaVideo{
+    width: 90vw;
+    max-width: 600px;
+    margin-bottom: 30px;
+    display: none;
+}
+
+.poza {
+
+    display: flex;
+    justify-content: center;
+}
+.quest {
+    font-family: Estonia; 
+    font-size: 4rem;
+    text-align: end;
+    align-items: center;
+}
+.quest1 {
+    font-family: Estonia; 
+    font-size: 4rem;
+    text-align: start;
+}
+
+/* Details page: */
+
+#big-container{
+    width: 100%;
+    height:100%;
+    background-color: rgb(137, 135, 135);
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+}
+
+#gameTitle{
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 3px #343333;
+    color: rgb(0, 0, 0);
+    background-color: rgb(137, 135, 135);
+    margin: 0;
+}
+
+.descriptionParagraph{
+    margin: 20px;
+    font-size: large;
+    font-family: "Libre Baskerville", serif;
+    max-width: 600px;
+    text-shadow: none;
+}
+
+#mainImage{
+    max-width: 300px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 100px #aaa;
+    margin-bottom: 15px;
+}
+
+#mainImage:hover{
+box-shadow: 0px 0px 100px #aaa;
+}
+
+#playersDetails{
+   
+    padding: 10px;
+    border-style: dashed;
+    border-color: rgb(62, 61, 61);
+    border-width: 1px;
+    width: 150px;
+    text-align: center;
+    opacity: 0.9;
+}
+
+.title{
+    color: yellow;
+    font-size: xx-large;
+    padding: 0;
+    margin: 0;
+    text-shadow: 2px 2px 3px #6c6969;
+}
+a:link{
+    color: rgb(255, 230, 0);
+}
+a:visited {
+    color: rgb(251, 255, 0);
+}
+  
+.myButton {
+    width: 150px;
+    height: 30px;
+    appearance: none;
+    background-color: #FFFFFF;
+    border-radius: 40em;
+    border-style: none;
+    box-shadow: #ADCFFF 0 -12px 6px inset;
+    box-sizing: border-box;
+    color: #000000;
+    cursor: pointer;
+    display:inline-flex;
+    font-family: -apple-system,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.24px;
+    margin: 0;
+    outline: none;
+    padding: 1rem 1.3rem;
+    quotes: auto;
+    text-align: center;
+    text-decoration: none;
+    transition: all .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0 2vw 0 2vw;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .myButton:hover {
+    background-color: #FFC229;
+    box-shadow: #FF6314 0 -6px 8px inset;
+    transform: scale(1.125);
+  }
+  
+  .myButton:active {
+    transform: scale(1.025);
+  }
+  
+  @media (min-width: 768px) {
+    .myButton {
+    }
+  }
+
+/*    Discount page - Walk.html */
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('library/MyFont.ttf') format('truetype'); 
+    font-weight: normal; 
+    font-style: normal;
+}
+
+body {
+    font-family: "Calistoga", serif;
+    font-family: "Aref Ruqaa Ink", serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: cornsilk;
+}
+
+h1{
+    font-size: larger;
+}
+
+#userAnswer{
+    background-image: url(library/emptyScroll.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 300px;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-weight: 10px;
+    font-size: x-large;
+    font-style: normal;
+    color: #414048;
+}
+
+/* Alert box: */
+
+.hidden {
+    display: none;
+}
+#customAlert, #introAlert, #notAlexPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: white; */
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(253, 254, 244, 0.5);
+    color: black;
+    width: 300px;
+    height: 80%;
+    background: linear-gradient(to bottom right, #f7f49e, #3a3913);
+    z-index: 999; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.introBtn1{
+    
+    background-color: rgb(204, 201, 128);
+    border-radius: 5px;
+    
+    height: 30px;
+    box-shadow: -2px 2px 3px rgb(87, 86, 86);
+}
+
+.alert-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    
+}
+
+#okBtn, #alexandriaBtn{
+    background-color: rgb(204, 201, 128);
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    box-shadow: -2px 2px 3px rgb(87, 86, 86);
+    font-size: medium;
+    font-family: "Aref Ruqaa Ink", serif;
+    font-weight: bolder;
+
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95); 
+    z-index: 900; 
+    visibility: hidden; 
+}
+
+#floor{
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#mainWalkDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tileLetters {
+    position: absolute;
+    color: rgb(113, 84, 22);
+    font-family: 'MyCustomFont';
+    font-size: 50px;
+    text-shadow: -1px 1px 2px rgb(54, 42, 4);
+    pointer-events: none;
+}
+
+.tileDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#alexandriaForm{
+    visibility: hidden;
+}
+
+#alexandriaBtn{
+    margin-top: 10px;
+}    
+
+#discoverTheWord{
+    font-size: xx-large;
+}
+
+#footerButtons{
+    margin-bottom: 30px;
+}

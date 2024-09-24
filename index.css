@@ -1,0 +1,71 @@
+
+.hidden {
+    display: none;
+}
+
+#customAlert {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0px 0px 20px rgba(253, 254, 244, 0.5);
+    color: black;
+    width: 300px;
+    height: 80%;
+    background: linear-gradient(to bottom right, #f7f49e, #3a3913);
+    z-index: 999; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    visibility: hidden;
+}
+
+.alert-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    
+}
+
+#alertMessage {
+    margin-bottom: 15px;
+}
+
+#okBtn{
+    background-color: rgb(204, 201, 128);
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    box-shadow: -2px 2px 3px rgb(87, 86, 86);
+    
+}
+
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.95); 
+    z-index: 900; 
+    visibility: hidden; 
+}
+
+#questRaidersImage{
+max-width: 300px;
+}
+
+#theHeader{
+    max-width: 1100px;
+}
+
+#lastCard{
+    margin-bottom: 25px;
+}

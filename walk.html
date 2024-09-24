@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take a walk</title>
+    <link rel="stylesheet" href="style.css">
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<audio id="soundTrack" playsinline>
+        <source src="library/sounds/ancient1.mp3" type="audio/mp3">
+</audio>
+<audio id="myAudio" playsinline>
+        <source src="library/sounds/goodStep.wav" type="audio/wav">
+</audio>
+
+<h1 id="discoverTheWord">Discover the Word!</h1>
+
+    <div id="mainWalkDiv">
+    <div id="floor"></div>
+    </div>
+    <button id="giveUpBtn" class="myButton" onclick="history.back()">Give Up</button>
+    <form id="alexandriaForm" action="">
+        <input type="text" id="userAnswer" name="fname" value="" placeholder="Answer here:" onclick="resetUserInput()" maxlength="10" minlength="10"><br>
+        <input class="introBtn1" id="alexandriaBtn" type="submit" value="Send">
+    </form>
+
+   
+    <div id="overlay"></div>
+
+    <div id="customAlert" class="hidden">
+        <div class="alert-content">
+        <h1>Win a Discount Code!</h1>           
+        <p id="testPar"> Here's a little puzzle. I'm not giving you any hints, but if you answer correctly, you can use that answer as a discount code on the Etsy page when ordering any of our games.</p>
+            <img src="library/path.png" width="300px" alt="Atlantis">
+            <p>Don't worry, it's not that hard!</p>
+            <button id="okBtn" onclick="closeAlert()">OK</button>
+        </div>
+    </div>
+        
+<script src="walk.js"></script>
+<script src="sounds.js"></script>
+</body>
+</html>
